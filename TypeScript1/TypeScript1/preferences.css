@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=B612');
+
+html{
+    border-top: 15mm ridge rgba(240, 40, 0, 0.6);
+}
+
+h1,h2{
+    text-align: center;
+}
+
+body {
+    font-family: "B612";
+    font-size: 18px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+
+#estadisticas{
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+
+#serie {
+    border: solid 1px #eee9dd;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:auto; 
+    margin-right:auto;
+}
+#serie thead th {
+    background-color: #eee9dd;
+    border: solid 1px #eee9dd;
+    color: #6b5a33;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+#serie tbody td {
+    border: solid 1px #eee9dd;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+
+.row {
+    overflow: hidden;
+}
+.col {
+    float: left;
+    margin: 40px;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+
+.cardSerie {
+    border: 2px solid #e89b6e99;
+ }
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-body {
+    margin-left: 7%;
+    margin-right: 7%;    
+}
+
+input {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: #069;
+    cursor: pointer;
+    font-family: "B612";
+    font-size: 16px;
+  }
